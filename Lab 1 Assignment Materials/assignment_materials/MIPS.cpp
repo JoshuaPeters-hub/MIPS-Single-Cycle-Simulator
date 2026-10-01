@@ -452,6 +452,7 @@ int main()
        else if (opCode == 0x02) {  // J-type J instruction
       address = bitset<26>(Instruction.to_string().substr(6, 26));
     bitset<32>pc = ((PC.to_ulong() + 4) & 0xF0000000) + (bitset<26>(Instruction.to_ulong() & 0x3FFFFFF).to_ulong() << 2);
+    PC = pc;
     } 
     else if (opCode == 0x3F || opCode == 0xFFFFFFFF) {  // J-type halt instruction
       cout << "halt" << endl;
