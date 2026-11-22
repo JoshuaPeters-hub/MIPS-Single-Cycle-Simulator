@@ -406,8 +406,12 @@ int main()
 
         // Check if ALUReturnValue is equal to 0, indicating rt and rs are equal
         if (ALUReturnValue == bitset<32>(0)) {
+          // test print
+          cout << "This is beq" << endl;
+
           // branch by updating PC
           PC = bitset<32>(PC.to_ulong() + 4 + (signExtendedImmediate << 2).to_ulong()); // update this, not correct
+          cout << PC.to_string() << endl;
 
         } else {
           // Update PC
