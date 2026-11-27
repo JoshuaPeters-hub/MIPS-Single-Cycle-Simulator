@@ -2,7 +2,7 @@
 
 A cycle-by-cycle simulator of a single-cycle MIPS processor, written in C++. It loads a MIPS program and its data memory from text files, runs each instruction through fetch, decode, execute, memory access and write-back in one cycle, and writes out the final register file and data memory.
 
-Built for Computing Systems Architecture (NYU Tandon, Fall 2026). The course provided the program skeleton and test files; I implemented the processor logic.
+Built for Computing Systems Architecture (NYU Tandon, Fall 2026) with my lab partner [@limb0007](https://github.com/limb0007). The course provided the program skeleton and test files; we implemented the processor logic together.
 
 ## What it does
 
