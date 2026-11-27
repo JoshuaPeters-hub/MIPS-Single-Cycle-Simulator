@@ -1,0 +1,15 @@
+# Build output
+MIPS
+*.exe
+*.o
+*.out
+
+# Program output (regenerated each run)
+RFresult.txt
+dmemresult.txt
+
+# OS and editor files
+__MACOSX/
+.DS_Store
+Thumbs.db
+.vscode/
