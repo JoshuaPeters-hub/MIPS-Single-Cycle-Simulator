@@ -45,6 +45,6 @@ diff dmemresult.txt expected_results/dmemresult_ans.txt
 
 C++ (g++), Make
 
-## Author
+## Authors
 
-Uzoma Peters, [github.com/JoshuaPeters-hub](https://github.com/JoshuaPeters-hub)
+Uzoma Peters ([@JoshuaPeters-hub](https://github.com/JoshuaPeters-hub)) and [@limb0007](https://github.com/limb0007)
